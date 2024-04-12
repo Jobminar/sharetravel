@@ -1,0 +1,52 @@
+# Dependency directories (Node.js examples)
+node_modules/
+vendor/
+
+# Environment configuration files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.log
+
+# Directory for compiled output
+/dist
+/build
+/out
+
+# Coverage directory used by tools like Istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional tsc compiler output
+*.tsbuildinfo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional: Yarn Integrity file
+.yarn-integrity
+
+# Optional: Log files
+*.log
