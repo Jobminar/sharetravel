@@ -51,7 +51,8 @@ const validateAadhar = async (req, res) => {
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Your_JWT_Token_Here",
+          Authorization:
+            "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMTk2NDk3NCwianRpIjoiOTFhOWQ1M2MtYWZmOC00MzczLTgxMTItZWJmYzFmMDk1YWFmIiwidHlwZSI6ImFjY2VzcyIsImlkZW50aXR5IjoiZGV2LnVzZXJuYW1lXzJlc3ZzZndydWpieG1jNXRndWlqc3IxdXZzZEBzdXJlcGFzcy5pbyIsIm5iZiI6MTcxMTk2NDk3NCwiZXhwIjoxNzE0NTU2OTc0LCJ1c2VyX2NsYWltcyI6eyJzY29wZXMiOlsidXNlciJdfX0.WJdDJTDxUPP2l9F622bxj-Q0vc-6Gp-pNIbToD_RWtA",
         },
       },
     );
